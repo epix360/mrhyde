@@ -2,7 +2,7 @@
 title: "The Art of Staying Motivated: Tips for Long-Term Success"
 author: "John Doe"
 date: "2025-03-25"
-categories: [Productivity, Motivation, Self-Improvement]
+categories: motivation
 ---
 
 # The Art of Staying Motivated: Tips for Long-Term Success

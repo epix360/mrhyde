@@ -12,6 +12,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Permalink structure
+permalink: /:categories/:year/:month/:day/:title/
+
 # Exclude from processing
 exclude:
   - .sass-cache/
