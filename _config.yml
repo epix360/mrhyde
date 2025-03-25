@@ -2,8 +2,8 @@ title: My Blog
 email: your-email@example.com
 description: >-
   Welcome to my Jekyll blog! Here I share my thoughts and experiences.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://epix360.github.io/mrhyde" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
