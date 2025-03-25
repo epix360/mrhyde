@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-25T15:42:05-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Blog</title><subtitle>Welcome to my Jekyll blog! Here I share my thoughts and experiences.</subtitle><entry><title type="html">Welcome to My Blog</title><link href="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog.html" rel="alternate" type="text/html" title="Welcome to My Blog" /><published>2025-03-25T14:56:07-06:00</published><updated>2025-03-25T14:56:07-06:00</updated><id>http://localhost:4000/blog/2025/03/25/welcome-to-my-blog</id><content type="html" xml:base="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog.html"><![CDATA[<p>Welcome to my new Jekyll blog! This is my first post and I’m excited to share my thoughts with you.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-25T16:12:10-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Blog</title><subtitle>Welcome to my Jekyll blog! Here I share my thoughts and experiences.</subtitle><entry><title type="html">Getting Started with Jekyll</title><link href="http://localhost:4000/jekyll/tutorial/2025/03/25/getting-started-with-jekyll.html" rel="alternate" type="text/html" title="Getting Started with Jekyll" /><published>2025-03-25T16:11:51-06:00</published><updated>2025-03-25T16:11:51-06:00</updated><id>http://localhost:4000/jekyll/tutorial/2025/03/25/getting-started-with-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/tutorial/2025/03/25/getting-started-with-jekyll.html"><![CDATA[<h1 id="getting-started-with-jekyll">Getting Started with Jekyll</h1>
+
+<p>Jekyll is a powerful static site generator that makes blogging simple and efficient. In this post, I’ll share my experience setting up a Jekyll blog and some tips for getting started.</p>
+
+<h2 id="why-jekyll">Why Jekyll?</h2>
+
+<ul>
+  <li><strong>Simple</strong>: Write your content in Markdown</li>
+  <li><strong>Fast</strong>: Static sites load quickly</li>
+  <li><strong>Secure</strong>: No databases or server-side code</li>
+  <li><strong>Version Control</strong>: Easy to manage with Git</li>
+  <li><strong>Free Hosting</strong>: Deploy easily on GitHub Pages</li>
+</ul>
+
+<h2 id="key-features">Key Features</h2>
+
+<ol>
+  <li><strong>Markdown Support</strong>: Write content in easy-to-read Markdown</li>
+  <li><strong>Front Matter</strong>: Customize your posts with YAML front matter</li>
+  <li><strong>Themes</strong>: Choose from many beautiful themes</li>
+  <li><strong>Plugins</strong>: Extend functionality with plugins</li>
+</ol>
+
+<h2 id="code-example">Code Example</h2>
+
+<p>Here’s a simple Ruby code snippet:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_jekyll</span>
+  <span class="nb">puts</span> <span class="s2">"Welcome to my Jekyll blog!"</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="whats-next">What’s Next?</h2>
+
+<p>In upcoming posts, I’ll cover:</p>
+<ul>
+  <li>Theme customization</li>
+  <li>Adding comments</li>
+  <li>SEO optimization</li>
+  <li>And more!</li>
+</ul>
+
+<p>Stay tuned for more Jekyll tips and tricks!</p>]]></content><author><name></name></author><category term="jekyll" /><category term="tutorial" /><summary type="html"><![CDATA[Getting Started with Jekyll]]></summary></entry><entry><title type="html">Welcome to My Blog</title><link href="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog.html" rel="alternate" type="text/html" title="Welcome to My Blog" /><published>2025-03-25T14:56:07-06:00</published><updated>2025-03-25T14:56:07-06:00</updated><id>http://localhost:4000/blog/2025/03/25/welcome-to-my-blog</id><content type="html" xml:base="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog.html"><![CDATA[<p>Welcome to my new Jekyll blog! This is my first post and I’m excited to share my thoughts with you.</p>
 
 <h2 id="what-to-expect">What to expect</h2>
 
