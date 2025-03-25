@@ -1,0 +1,67 @@
+<h1 id="customizing-your-jekyll-blog">Customizing Your Jekyll Blog</h1>
+
+<p>Jekyll offers numerous ways to customize your blog to match your style and needs. Here’s a guide to some essential customization options.</p>
+
+<h2 id="theme-customization">Theme Customization</h2>
+
+<p>The default Minima theme provides a great starting point, but you can easily modify it:</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Add to assets/css/main.scss</span>
+<span class="nv">$brand-color</span><span class="p">:</span> <span class="mh">#2a7ae2</span><span class="p">;</span>
+<span class="nv">$text-color</span><span class="p">:</span> <span class="mh">#333</span><span class="p">;</span>
+<span class="nv">$background-color</span><span class="p">:</span> <span class="mh">#fdfdfd</span><span class="p">;</span>
+
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s1">'Helvetica Neue'</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1</span><span class="mi">.6</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="layout-options">Layout Options</h2>
+
+<p>You can create custom layouts in the <code class="language-plaintext highlighter-rouge">_layouts</code> directory:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Example of a custom layout --&gt;</span>
+
+<span class="nt">&lt;article</span> <span class="na">class=</span><span class="s">"post"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"post-header"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>{{ page.title }}<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;time&gt;</span>{{ page.date | date: "%B %d, %Y" }}<span class="nt">&lt;/time&gt;</span>
+  <span class="nt">&lt;/header&gt;</span>
+  
+  {{ content }}
+<span class="nt">&lt;/article&gt;</span>
+
+</code></pre></div></div>
+
+<h2 id="adding-features">Adding Features</h2>
+
+<p>Some popular features you might want to add:</p>
+
+<ol>
+  <li><strong>Comments System</strong>
+    <ul>
+      <li>Disqus</li>
+      <li>Utterances (GitHub-based)</li>
+      <li>Giscus</li>
+    </ul>
+  </li>
+  <li><strong>Analytics</strong>
+    <ul>
+      <li>Google Analytics</li>
+      <li>Plausible</li>
+      <li>Simple Analytics</li>
+    </ul>
+  </li>
+  <li><strong>Social Sharing</strong>
+    <ul>
+      <li>Twitter/X</li>
+      <li>LinkedIn</li>
+      <li>Facebook</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>In the next post, we’ll explore advanced Jekyll features like collections, data files, and custom plugins.</p>

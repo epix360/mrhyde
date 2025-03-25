@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-25T16:30:01-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Blog</title><subtitle>Welcome to my Jekyll blog! Here I share my thoughts and experiences.</subtitle><entry><title type="html">Welcome to My Blog</title><link href="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog/" rel="alternate" type="text/html" title="Welcome to My Blog" /><published>2025-03-25T14:56:07-06:00</published><updated>2025-03-25T14:56:07-06:00</updated><id>http://localhost:4000/blog/2025/03/25/welcome-to-my-blog</id><content type="html" xml:base="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog/"><![CDATA[<p>Welcome to my new Jekyll blog! This is my first post and I’m excited to share my thoughts with you.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-25T16:33:13-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Blog</title><subtitle>Welcome to my Jekyll blog! Here I share my thoughts and experiences.</subtitle><entry><title type="html">Customizing Your Jekyll Blog</title><link href="http://localhost:4000/tutorial/2025/03/25/jekyll-customization/" rel="alternate" type="text/html" title="Customizing Your Jekyll Blog" /><published>2025-03-25T16:32:55-06:00</published><updated>2025-03-25T16:32:55-06:00</updated><id>http://localhost:4000/tutorial/2025/03/25/jekyll-customization</id><content type="html" xml:base="http://localhost:4000/tutorial/2025/03/25/jekyll-customization/"><![CDATA[<h1 id="customizing-your-jekyll-blog">Customizing Your Jekyll Blog</h1>
+
+<p>Jekyll offers numerous ways to customize your blog to match your style and needs. Here’s a guide to some essential customization options.</p>
+
+<h2 id="theme-customization">Theme Customization</h2>
+
+<p>The default Minima theme provides a great starting point, but you can easily modify it:</p>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Add to assets/css/main.scss</span>
+<span class="nv">$brand-color</span><span class="p">:</span> <span class="mh">#2a7ae2</span><span class="p">;</span>
+<span class="nv">$text-color</span><span class="p">:</span> <span class="mh">#333</span><span class="p">;</span>
+<span class="nv">$background-color</span><span class="p">:</span> <span class="mh">#fdfdfd</span><span class="p">;</span>
+
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s1">'Helvetica Neue'</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+  <span class="nl">line-height</span><span class="p">:</span> <span class="m">1</span><span class="mi">.6</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="layout-options">Layout Options</h2>
+
+<p>You can create custom layouts in the <code class="language-plaintext highlighter-rouge">_layouts</code> directory:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Example of a custom layout --&gt;</span>
+
+<span class="nt">&lt;article</span> <span class="na">class=</span><span class="s">"post"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;header</span> <span class="na">class=</span><span class="s">"post-header"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>{{ page.title }}<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;time&gt;</span>{{ page.date | date: "%B %d, %Y" }}<span class="nt">&lt;/time&gt;</span>
+  <span class="nt">&lt;/header&gt;</span>
+  
+  {{ content }}
+<span class="nt">&lt;/article&gt;</span>
+
+</code></pre></div></div>
+
+<h2 id="adding-features">Adding Features</h2>
+
+<p>Some popular features you might want to add:</p>
+
+<ol>
+  <li><strong>Comments System</strong>
+    <ul>
+      <li>Disqus</li>
+      <li>Utterances (GitHub-based)</li>
+      <li>Giscus</li>
+    </ul>
+  </li>
+  <li><strong>Analytics</strong>
+    <ul>
+      <li>Google Analytics</li>
+      <li>Plausible</li>
+      <li>Simple Analytics</li>
+    </ul>
+  </li>
+  <li><strong>Social Sharing</strong>
+    <ul>
+      <li>Twitter/X</li>
+      <li>LinkedIn</li>
+      <li>Facebook</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>In the next post, we’ll explore advanced Jekyll features like collections, data files, and custom plugins.</p>]]></content><author><name>John Doe</name></author><category term="tutorial" /><summary type="html"><![CDATA[Customizing Your Jekyll Blog]]></summary></entry><entry><title type="html">Welcome to My Blog</title><link href="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog/" rel="alternate" type="text/html" title="Welcome to My Blog" /><published>2025-03-25T14:56:07-06:00</published><updated>2025-03-25T14:56:07-06:00</updated><id>http://localhost:4000/blog/2025/03/25/welcome-to-my-blog</id><content type="html" xml:base="http://localhost:4000/blog/2025/03/25/welcome-to-my-blog/"><![CDATA[<p>Welcome to my new Jekyll blog! This is my first post and I’m excited to share my thoughts with you.</p>
 
 <h2 id="what-to-expect">What to expect</h2>
 
